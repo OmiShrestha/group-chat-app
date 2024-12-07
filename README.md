@@ -21,7 +21,7 @@ The project contains several key files that contribute to both the client and se
 - **Protocol-based Message Handling**: Communication is structured based on a custom protocol defined in `protocol.h`.
 
 ### Missig non-functional features
-- Race condition problems not added yet.
+- Race condition problems not solved yet.
 
 ## Compilation
 
