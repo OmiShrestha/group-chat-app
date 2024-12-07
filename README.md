@@ -20,6 +20,9 @@ The project contains several key files that contribute to both the client and se
 - **Socket Communication**: The client and server use sockets for network communication.
 - **Protocol-based Message Handling**: Communication is structured based on a custom protocol defined in `protocol.h`.
 
+### Missig non-functional features
+- Race condition problems not added yet.
+
 ## Compilation
 
 1. **Compile the Server (must be on FreeBSD server)**:
