@@ -1,0 +1,177 @@
+Last login: Fri Dec  6 19:24:46 on ttys000
+theomigod@Omis-MacBook-Pro ~ % cd team-2
+theomigod@Omis-MacBook-Pro team-2 % docker compose run --rm --name client3 remoteclient
+
+root@docker-desktop:/usr/local/src# gcc -o client3 my-client.c client-helper.c msg-list.c user-list.c auth-client.c
+root@docker-desktop:/usr/local/src# ./client3 172.30.129.135 32001
+serv ip info: 172.30.129.135 - IPV4 @32001
+1. Login
+2. Register
+3. Exit
+Enter your choice: 2
+Enter your email: omi.shrestha@scranton.edu
+Enter your name: Omi
+Enter your password: Registration successful
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: 4
+Exiting...
+Server disconnected. Exiting...
+root@docker-desktop:/usr/local/src# ./client3 172.30.129.135 32001
+serv ip info: 172.30.129.135 - IPV4 @32001
+1. Login
+2. Register
+3. Exit
+Enter your choice: 1
+Enter your email: omi@scranton.edu
+Enter your password: Error from server: Email does not exist. Please try again.
+1. Login
+2. Register
+3. Exit
+Enter your choice: 1
+Enter your email: omi.shrestha@scranton.edu
+Enter your password: Login successful
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: 3
+Select group to join
+1. CMPS340
+2. CMPS352
+1
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Acknowledgment from server received
+Receive loop continues...
+3
+Select group to join
+1. CMPS340
+2. CMPS352
+2
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Acknowledgment from server received
+Receive loop continues...
+Message from user (daniel): Hello from 340
+Receive loop continues...
+Message from user (Aedan): Hi from Aedan
+Receive loop continues...
+1
+Enter the group name: CMPS340
+Enter your message: Hellooo from Omi
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Omi): Hellooo from Omi
+Receive loop continues...
+Acknowledgment from server received
+Receive loop continues...
+Message from user (daniel): Hello everyone
+Receive loop continues...
+Message from user (daniel): I'm leaving soon
+Receive loop continues...
+Message from user (Aedan): Hi UofS from Aedan
+Receive loop continues...
+1
+Enter the group name: CMPS352
+Enter your message: Hi Scranton from Omi
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Omi): Hi Scranton from Omi
+Receive loop continues...
+Acknowledgment from server received
+Receive loop continues...
+Message from user (daniel): First message from Daniel
+Receive loop continues...
+1
+Enter the group name: CMPS
+Enter your message: First msg from Omi
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Omi): First msg from Omi
+Receive loop continues...
+Acknowledgment from server received
+Receive loop continues...
+Message from user (daniel): First message from Daniel
+Receive loop continues...
+Message from user (Aedan): First msg from Aedan
+Receive loop continues...
+1
+Enter the group name: CMPS
+Enter your message: Second msg from Omi
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Omi): Second msg from Omi
+Receive loop continues...
+Acknowledgment from server received
+Receive loop continues...
+Message from user (Aedan): Second msg from Aedan
+Receive loop continues...
+Message from user (daniel): Second message from Daniel
+Receive loop continues...
+4
+Exiting...
+Server disconnected. Exiting...
+root@docker-desktop:/usr/local/src# ./client3 172.30.129.135 32001
+serv ip info: 172.30.129.135 - IPV4 @32001
+1. Login
+2. Register
+3. Exit
+Enter your choice: 1
+Enter your email: omi.shrestha@scranton.edu
+Enter your password: Login successful
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Aedan): Hi from Aedan
+Receive loop continues...
+1
+Enter the group name: CMPS340
+Enter your message: last msg from Omi
+
+Menu:
+1. Send a message
+2. Request all messages
+3. Join a group
+4. Exit
+Enter your choice: Message from user (Omi): last msg from Omi
+Receive loop continues...
+Acknowledgment from server received
+Receive loop continues...
+4
+Exiting...
+Server disconnected. Exiting...
+root@docker-desktop:/usr/local/src# 
