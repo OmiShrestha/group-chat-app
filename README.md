@@ -100,3 +100,4 @@ Kill the app server by pressing CTRL + c, and then enter the following to exit t
 ```
 exit
 ```
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
